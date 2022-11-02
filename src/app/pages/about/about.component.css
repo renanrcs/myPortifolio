@@ -9,3 +9,13 @@ mat-list{
   display: flex;
   list-style: none;
 }
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.section-text{
+  background-color: #EAF2FD;
+}
