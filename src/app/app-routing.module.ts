@@ -1,5 +1,5 @@
-import { FooterComponent } from './footer/footer.component';
-import { ProjetosComponent } from './projetos/projetos.component';
+import { FooterComponent } from './sharepage/footer/footer.component';
+import { ProjetosComponent } from './pages/projetos/projetos.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 

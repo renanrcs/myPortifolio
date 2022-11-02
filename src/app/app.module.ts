@@ -5,11 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { ProjetosComponent } from './projetos/projetos.component';
+import { ProjetosComponent } from './pages/projetos/projetos.component';
 import { MatIconModule} from '@angular/material/icon';
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from './sharepage/header/header.component';
 import { MatListModule } from '@angular/material/list';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './sharepage/footer/footer.component';
 
 @NgModule({
   declarations: [
