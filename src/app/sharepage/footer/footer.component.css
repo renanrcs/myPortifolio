@@ -1,11 +1,31 @@
 footer{
+  width: 100vw;
+  background-color: lightgray;
+}
+
+.div-footer{
+  width: 80%;
+  margin: 0 auto;
   height: 40px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  background-color: lightgray;
 }
 
 p{
   padding-top: 1rem;
+}
+
+mat-icon{
+  margin-right: .2rem;
+}
+
+mat-list{
+  display: flex;
+  list-style: none;
+}
+
+
+mat-list-item{
+  margin-right: 5px;
 }
