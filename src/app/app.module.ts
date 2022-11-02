@@ -9,12 +9,14 @@ import { ProjetosComponent } from './projetos/projetos.component';
 import { MatIconModule} from '@angular/material/icon';
 import { HeaderComponent } from './header/header.component';
 import { MatListModule } from '@angular/material/list';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjetosComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

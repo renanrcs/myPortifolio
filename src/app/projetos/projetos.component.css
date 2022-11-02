@@ -1,0 +1,11 @@
+.section-main{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 32px auto;
+}
+
+mat-list{
+  display: flex;
+  list-style: none;
+}

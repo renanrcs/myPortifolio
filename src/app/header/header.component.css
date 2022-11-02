@@ -1,4 +1,9 @@
 mat-toolbar{
+  width: 100%;
+}
+.div-header{
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
@@ -9,7 +14,7 @@ span{
 }
 
 mat-icon{
-  margin-right: .5rem;
+  margin-right: .2rem;
 }
 
 mat-list{
@@ -17,11 +22,21 @@ mat-list{
   list-style: none;
 }
 
+
 mat-list-item{
-  margin-right: 20px;
+  margin-right: 5px;
 }
 
 a{
   color: #FFF;
-  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  .div-header{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
 }
