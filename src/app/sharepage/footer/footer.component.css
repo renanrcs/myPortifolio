@@ -1,0 +1,11 @@
+footer{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+p{
+  padding-top: 1rem;
+}
