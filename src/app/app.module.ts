@@ -10,13 +10,25 @@ import { MatIconModule} from '@angular/material/icon';
 import { HeaderComponent } from './sharepage/header/header.component';
 import { MatListModule } from '@angular/material/list';
 import { FooterComponent } from './sharepage/footer/footer.component';
+import { AboutComponent } from './pages/about/about.component';
+import { SkillsComponent } from './pages/skills/skills.component';
+import { FormationComponent } from './pages/formation/formation.component';
+import { HobbiesComponent } from './pages/hobbies/hobbies.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjetosComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    SkillsComponent,
+    FormationComponent,
+    HobbiesComponent,
+    ContactComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
