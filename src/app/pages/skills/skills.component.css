@@ -1,0 +1,19 @@
+/*
+========================
+          MOBILE
+========================
+*/
+mat-grid-tile {
+  background: lightblue;
+}
+
+h1{
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: 700;
+}
+
+mat-grid-list{
+  width: 80%;
+  margin: 0 auto;
+}
