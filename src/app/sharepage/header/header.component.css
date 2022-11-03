@@ -6,6 +6,7 @@
 mat-toolbar{
   width: 100%;
 }
+
 .div-header{
   width: 80%;
   margin: 0 auto;
@@ -36,12 +37,25 @@ a{
   color: #FFF;
 }
 
-@media screen and (max-width: 768px) {
+/*
+========================
+          MOBILE
+========================
+*/
+
+@media screen and (max-width: 767px) {
 
   .div-header{
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    /* justify-content: space-around; */
+  }
+
+  mat-list > *{
+    display: none;
+  }
+
+  mat-list-item:nth-last-child(1){
+    margin-right: 0;
+    display: block;
   }
 
 }
