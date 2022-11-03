@@ -19,3 +19,20 @@ img{
 .section-text{
   background-color: #EAF2FD;
 }
+
+/*
+========================
+          MOBILE
+========================
+*/
+
+@media screen and (max-width: 767px) {
+  .section-main{
+    flex-direction: column-reverse;
+  }
+
+  img{
+    width: 98px;
+    height: 98px;
+  }
+}
