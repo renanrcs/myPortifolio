@@ -1,0 +1,32 @@
+section{
+  background-color: #EAF2FD;
+}
+
+h1{
+  text-align: center;
+  font-weight: 700;
+  line-height: 26px;
+  padding: 32px 0;
+}
+
+.card-content{
+  display: flex;
+  flex-direction: column;
+  width: 296px;
+  height: 169px;
+}
+img{
+  width: 70px;
+  height: 48px;
+}
+.div-image{
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 118px;
+}
+
+.bg-image{
+  background-color: blue;
+}
