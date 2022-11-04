@@ -1,0 +1,30 @@
+/*
+========================
+          MOBILE
+========================
+*/
+section{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.card-hobbies {
+  width: 156px;
+  height: 118;
+  background: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+
+h1{
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: 700;
+}
