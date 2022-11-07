@@ -10,7 +10,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 
 const routes: Routes = [
-  { path: '', component: ProjetosComponent},
+  { path: '', component: AboutComponent},
   { path: 'about', component: AboutComponent},
   { path: 'contact', component: ContactComponent},
   { path: 'formation', component: FormationComponent},
