@@ -1,27 +1,7 @@
 <h1>Hobbies</h1>
 <section>
-  <div class="card-hobbies">
-    <img src="../../../assets/icons/hobbies/icon_skateboarding.svg" alt="Icone Humano sobre skate">
-    <h1>Andar de Skate</h1>
-  </div>
-  <div class="card-hobbies">
-    <img src="../../../assets/icons/hobbies/icon_guitar.svg" alt="Icone Instrumento musical Baixo">
-    <h1>Tocar baixo</h1>
-  </div>
-  <div class="card-hobbies">
-    <img src="../../../assets/icons/hobbies/icon_headphones.svg" alt="Icone Fone Readset">
-    <h1>Ouvir Música</h1>
-  </div>
-  <div class="card-hobbies">
-    <img src="../../../assets/icons/hobbies/icon_tv_black.svg" alt="Icone Televisao">
-    <h1>Assistir Séries</h1>
-  </div>
-  <div class="card-hobbies">
-    <img src="../../../assets/icons/hobbies/icon_restaurant_menu.svg" alt="Icone Talheres">
-    <h1>Cozinhar</h1>
-  </div>
-  <div class="card-hobbies">
-    <img src="../../../assets/icons/hobbies/icon_photo_camera.svg" alt="Icone Camera Fotografica">
-    <h1>Tirar fotos</h1>
+  <div class="card-hobbies" *ngFor="let hobbie of hobbies">
+    <img [src]="hobbie.imagem" [alt]="hobbie.alt">
+    <h1>{{ hobbie.titulo}}</h1>
   </div>
 </section>
