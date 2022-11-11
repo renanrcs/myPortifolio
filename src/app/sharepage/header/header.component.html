@@ -8,12 +8,25 @@
 
     <mat-list role="list">
       <mat-list-item role="listitem"><a routerLinkActive="active-link" routerLink="about">Sobre min</a> </mat-list-item>
-      <mat-list-item role="listitem"><a routerLinkActive="active-link" routerLink="skills">Skills</a>    </mat-list-item>
-      <mat-list-item role="listitem"><a routerLinkActive="active-link" routerLink="hobbies">Hobbies</a>   </mat-list-item>
-      <mat-list-item role="listitem"><a routerLinkActive="active-link" routerLink="formation">Formação</a>  </mat-list-item>
-      <mat-list-item role="listitem"><a routerLinkActive="active-link" routerLink="projetos">Projetos</a>  </mat-list-item>
-      <mat-list-item role="listitem"><a routerLinkActive="active-link" routerLink="contact">Contato</a>   </mat-list-item>
+      <mat-list-item role="listitem"><a routerLinkActive="active-link" routerLink="skills">Skills</a> </mat-list-item>
+      <mat-list-item role="listitem"><a routerLinkActive="active-link" routerLink="hobbies">Hobbies</a> </mat-list-item>
+      <mat-list-item role="listitem"><a routerLinkActive="active-link" routerLink="formation">Formação</a>
+      </mat-list-item>
+      <mat-list-item role="listitem"><a routerLinkActive="active-link" routerLink="projetos">Projetos</a>
+      </mat-list-item>
+      <mat-list-item role="listitem"><a routerLinkActive="active-link" routerLink="contact">Contato</a> </mat-list-item>
     </mat-list>
+
+    <button class="btn-menu" mat-button [matMenuTriggerFor]="menu">Menu</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item> <a routerLinkActive="active-link" routerLink="about">Sobre min </a></button>
+      <button mat-menu-item> <a routerLinkActive="active-link" routerLink="skills">Skills   </a></button>
+      <button mat-menu-item> <a routerLinkActive="active-link" routerLink="hobbies">Hobbies </a></button>
+      <button mat-menu-item> <a routerLinkActive="active-link" routerLink="formation">Formação</a></button>
+      <button mat-menu-item> <a routerLinkActive="active-link" routerLink="projetos">Projetos</a></button>
+      <button mat-menu-item> <a routerLinkActive="active-link" routerLink="contact">Contato</a></button>
+    </mat-menu>
+
   </div>
 
 </mat-toolbar>

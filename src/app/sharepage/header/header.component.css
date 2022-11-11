@@ -41,7 +41,11 @@ mat-list-item{
 }
 
 a{
-  color: #FFF;
+  color: #000;
+}
+
+.btn-menu{
+  display: none;
 }
 
 /*
@@ -52,17 +56,25 @@ a{
 
 @media screen and (max-width: 767px) {
 
-  .div-header{
-    /* justify-content: space-around; */
+  .btn-menu{
+    display: block;
   }
 
-  mat-list > *{
+  mat-menu{
+    display: block;
+  }
+
+  mat-list{
     display: none;
   }
 
-  mat-list-item:nth-last-child(1){
+  /* mat-list > *{
+    display: none;
+  } */
+
+  /* mat-list-item:nth-last-child(1){
     margin-right: 0;
     display: block;
-  }
+  } */
 
 }

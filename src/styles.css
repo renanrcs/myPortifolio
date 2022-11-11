@@ -1,12 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
+html, body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   background-color: #F5F5F5;
 }
-
 
 a{
   text-decoration: none;
@@ -17,4 +20,15 @@ a{
   margin: 0 auto;
 }
 
+/*
+========================
+          MOBILE
+========================
+*/
 
+@media screen and (max-width: 767px) {
+  .container{
+    width: 90%;
+    margin: 0 auto;
+  }
+}

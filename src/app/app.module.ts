@@ -17,6 +17,7 @@ import { HobbiesComponent } from './pages/hobbies/hobbies.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
     MatIconModule,
     MatListModule,
     MatGridListModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,4 @@
-section{
+.div-main{
   background-color: #EAF2FD;
 }
 
@@ -15,10 +15,12 @@ h1{
   width: 296px;
   height: 169px;
 }
+
 img{
   width: 70px;
   height: 48px;
 }
+
 .div-image{
   background-color: #FFF;
   display: flex;
@@ -29,4 +31,20 @@ img{
 
 .bg-image{
   background-color: blue;
+}
+
+/*
+========================
+          MOBILE
+========================
+*/
+
+@media screen and (max-width: 767px) {
+
+  .div-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
