@@ -1,7 +1,9 @@
-<h1>Hobbies</h1>
-<section>
-  <div class="card-hobbies" *ngFor="let hobbie of hobbies">
-    <img [src]="hobbie.imagem" [alt]="hobbie.alt">
-    <h1>{{ hobbie.titulo}}</h1>
+<section class="container">
+  <h1 class="title-section-hobbies">Hobbies</h1>
+  <div class="content-hobbies">
+    <div class="card-hobbies" *ngFor="let hobbie of hobbies">
+      <img [src]="hobbie.imagem" [alt]="hobbie.alt">
+      <h1>{{ hobbie.titulo}}</h1>
+    </div>
   </div>
 </section>

@@ -1,3 +1,10 @@
+.content-skil{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
 /*
 ========================
           MOBILE
@@ -8,7 +15,6 @@ section{
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
   margin-bottom: 2rem;
 }
 
@@ -23,9 +29,10 @@ section{
   padding-top: 0.5rem;
 }
 
-h1{
+.title-section-skills{
+  flex-grow: 1;
   text-align: center;
-  padding-top: 1rem;
+  padding: 1rem;
   font-weight: 700;
 }
 

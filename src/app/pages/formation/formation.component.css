@@ -1,5 +1,10 @@
 .div-main{
   background-color: #EAF2FD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 32px auto;
 }
 
 h1{
@@ -14,6 +19,7 @@ h1{
   flex-direction: column;
   width: 296px;
   height: 169px;
+  margin: 1rem auto;
 }
 
 img{
