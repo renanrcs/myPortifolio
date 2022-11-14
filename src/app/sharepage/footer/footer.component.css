@@ -1,6 +1,7 @@
 footer{
+  position: relative;
   width: 100%;
-  bottom: 0;
+  top: calc(40%);
   background-color: lightgray;
 }
 

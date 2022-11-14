@@ -1,7 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body {
+*{
   box-sizing: border-box;
+}
+
+html, body {
   height: 100%;
 }
 
@@ -16,7 +19,6 @@ a{
 }
 
 .container{
-  position: relative;
   width: 80%;
   margin: 0 auto;
   padding-bottom: 2rem;
@@ -31,6 +33,5 @@ a{
 @media screen and (max-width: 767px) {
   .container{
     width: 90%;
-    margin: 0 auto;
   }
 }
