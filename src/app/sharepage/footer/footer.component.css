@@ -18,10 +18,6 @@ p{
   padding-top: 1rem;
 }
 
-mat-icon{
-  margin-right: .2rem;
-}
-
 mat-list{
   display: flex;
   list-style: none;

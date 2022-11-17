@@ -8,6 +8,7 @@
   font-size: 32px;
   line-height: 38px;
   text-align: center;
+  padding: 2rem 0;
 }
 
 .div-main__items{
@@ -24,7 +25,7 @@
   padding: .2rem 1rem;
 }
 
-.iv-main__items__text__buttons{
+.div-main__items__text__buttons{
   display: flex;
   gap: 5px;
 }

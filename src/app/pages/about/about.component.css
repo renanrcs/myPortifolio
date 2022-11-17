@@ -1,7 +1,9 @@
+
 .section-main{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 32px auto;
+  width: 100%;
 }
 
 mat-list{
@@ -17,6 +19,11 @@ img{
 
 .section-text{
   background-color: #EAF2FD;
+  width: 100%;
+}
+
+.div-text{
+  padding: 1rem;
 }
 
 /*
