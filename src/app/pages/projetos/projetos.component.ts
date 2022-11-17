@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { projetos, IProjetos } from './projetos';
 
 @Component({
   selector: 'app-projetos',
@@ -7,13 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjetosComponent implements OnInit {
 
-  projetos = [
-    {imagem: '../assets/icons/skills/icon-html.svg', titulo: 'Decodificador de texto',
-    subtitulo: 'Challenge da alura e Oracle para decodificar textos'},
-    {imagem: '../assets/icons/skills/icon-node.svg',
-  titulo: 'Jogo da Forca',
-  subtitulo: 'mais um challenge, esse criado com HTML, CSS e JS'}
-  ];
+projetos: IProjetos[] = projetos;
 
   constructor() { }
 

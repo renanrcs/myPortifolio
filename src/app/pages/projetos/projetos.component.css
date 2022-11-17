@@ -1,1 +1,47 @@
+.container{
+  margin: 32px 0;
+  width: 100%;
+}
 
+.title-section{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.div-main__items{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+
+.div-main__items__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: .2rem 1rem;
+}
+
+.iv-main__items__text__buttons{
+  display: flex;
+  gap: 5px;
+}
+
+.btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+}
+
+.btn-repository{
+  border: 1px solid #2A7AE4;
+}
+
+.btn-demo{
+  background: #2A7AE4;
+}
