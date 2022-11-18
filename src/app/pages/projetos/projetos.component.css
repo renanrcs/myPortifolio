@@ -17,6 +17,10 @@
   margin-bottom: 5rem;
 }
 
+.div-main__items__image > img{
+  width: 90%;
+}
+
 .div-main__items__text{
   display: flex;
   flex-direction: column;
@@ -45,4 +49,20 @@
 
 .btn-demo{
   background: #2A7AE4;
+}
+
+@media screen and (max-width: 767px) {
+  .div-main__items{
+    flex-direction: column;
+  }
+
+  .div-main__items__image{
+    width: 100%;
+  }
+
+  .div-main__items__image > img{
+    width: 95%;
+    display: block;
+    margin: auto;
+  }
 }

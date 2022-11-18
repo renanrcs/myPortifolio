@@ -39,4 +39,14 @@ MOBILE
 ========================
 */
 
+@media screen and (max-width: 767px) {
+  .content-skil{
+    flex-direction: column;
+  }
+
+  .card-skills{
+    width: 100%;
+  }
+}
+
 

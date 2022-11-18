@@ -19,3 +19,12 @@ fieldset{
   border-radius: 15px;
 }
 
+@media screen and (max-width: 767px) {
+  .contact{
+    margin: 0 auto;
+  }
+
+  .contact__text{
+    padding-top: 1.5rem;
+  }
+}

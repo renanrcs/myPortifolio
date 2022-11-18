@@ -39,3 +39,13 @@ section{
           MOBILE
 ========================
 */
+
+@media screen and (max-width: 767px) {
+  .content-hobbies{
+    flex-direction: column;
+  }
+
+  .card-hobbies{
+    width: 100%;
+  }
+}
