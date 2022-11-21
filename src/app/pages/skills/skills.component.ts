@@ -16,21 +16,21 @@ export class SkillsComponent implements OnInit {
      alt: "Icone CSS",
      titulo: "CSS"
     },
-    {imagem: "../../../assets/icons/skills/icon-react.svg",
-     alt: "Icone React",
-     titulo: "REACT"
+    {imagem: "../../../assets/icons/skills/icon-angular.svg",
+     alt: "Icone Angular",
+     titulo: "Angular"
     },
-    {imagem: "../../../assets/icons/skills/icon-node.svg",
-     alt: "Icone Node",
-     titulo: "NODE"
+    {imagem: "../../../assets/icons/skills/icon-spring.svg",
+     alt: "Icone Spring",
+     titulo: "Spring"
     },
-    {imagem: "../../../assets/icons/skills/icon-js.svg",
+    {imagem: "../../../assets/icons/skills/icon-javascript.svg",
      alt: "Icone JavaScript",
      titulo: "JAVASCRIPT"
     },
-    {imagem: "../../../assets/icons/skills/icon-php.svg",
-     alt: "Icone PHP",
-     titulo: "PHP"
+    {imagem: "../../../assets/icons/skills/icon-java-original.svg",
+     alt: "Icone Java",
+     titulo: "Java"
     }
   ]
 

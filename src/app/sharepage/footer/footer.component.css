@@ -44,4 +44,8 @@ mat-list-item{
     justify-content: center;
     height: auto;
   }
+
+  footer{
+    top: auto;
+  }
 }
