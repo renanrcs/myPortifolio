@@ -1,8 +1,12 @@
 footer{
-  position: relative;
-  width: 100%;
-  top: calc(40%);
+  align-items: center;
   background-color: lightgray;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  position: relative;
+  top: auto;
+  width: 100%;
 }
 
 .div-footer{
@@ -42,10 +46,10 @@ mat-list-item{
   .div-footer{
     flex-direction: column;
     justify-content: center;
-    height: auto;
   }
 
   footer{
+    height: 100px;
     top: auto;
   }
 }
